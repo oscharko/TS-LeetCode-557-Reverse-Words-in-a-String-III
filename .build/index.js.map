@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let s = \"Let's take LeetCode contest\"\n\nfunction reverseWords(s: string | any): string {\n  s = s.split(\" \")\n  for (let i = 0; i < s.length; i++) {\n    s[i] = s[i].split(\"\").reverse().join(\"\")\n  }\n  s = s.join(\" \")\n  return s;\n};\n\nconsole.log(reverseWords(s))"],
+  "mappings": "AAAA,IAAI,IAAI;AAER,sBAAsB,IAAyB;AAC7C,OAAI,GAAE,MAAM;AACZ,WAAS,IAAI,GAAG,IAAI,GAAE,QAAQ,KAAK;AACjC,OAAE,KAAK,GAAE,GAAG,MAAM,IAAI,UAAU,KAAK;AAAA;AAEvC,OAAI,GAAE,KAAK;AACX,SAAO;AAAA;AACR;AAED,QAAQ,IAAI,aAAa;",
+  "names": []
+}
